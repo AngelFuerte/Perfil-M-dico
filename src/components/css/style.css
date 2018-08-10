@@ -1,0 +1,253 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.content{
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer{
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #222;
+  height: 180px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.Logo img {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Menu{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.Menu li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.Menu li a {
+  color: #CCC;
+  text-decoration: none;
+}
+
+.Menu li a:hover {
+  color: #EEE;
+}
+
+.Submit {
+  display: block;
+  position: relative
+}
+
+.Map {
+  width: 50%;
+  height: 75%;
+  marginLeft: auto;
+  marginRight: auto;
+  display: block;
+}
+
+
+.schedule h1 {
+  text-align: left;
+}
+
+.check_radio {
+  align-content: center;
+  border: 1px solid;
+}
+
+/*Css Components Medical*/
+
+.Medicals {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  -o-box-pack: distribute;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  min-height: 100vh;
+  width: 100vw;
+}
+.Medical {
+  background: #f7f7f7;
+  height: 150px;
+  margin: 15px;
+  position: relative;
+  text-align: center;
+  width: 170px;
+}
+.Medical:hover{
+  border: 1px solid #ed1c23;
+}
+.Medical figure {
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+.Medical div {
+  background: #ed1c23;
+  bottom: 0;
+  color: #fff;
+  left: 0;
+  padding: 5px 0;
+  position: absolute;
+  right: 0;
+}
+
+
+
+.MedicalDetail {
+  /*display: -webkit-box;*/
+  /*display: -moz-box;*/
+  /*display: -webkit-flex;
+  display: -ms-flexbox;*/
+  display: flex;
+  /*-webkit-box-pack: center;*/
+  /*-moz-box-pack: center;*/
+  /*-o-box-pack: center;*/
+  /*-ms-flex-pack: center;*/
+  /*-webkit-justify-content: center;*/
+  justify-content: center;
+}
+
+.MedicalDetail-info {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 30px 0;
+  width: 20vw;
+}
+.MedicalDetail-info h4 {
+  border-bottom: 5px solid #ed1c23;
+  margin: 0 auto;
+  padding: 7px;
+  width: auto;
+}
+.MedicalDetail-info ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.MedicalDetail-info ul li {
+  list-style: none;
+  width: auto;
+}
+.MedicalDetail-info-certification ul li {
+  list-style: none;
+  width: auto;
+}
+.MedicalDetail-info-certification ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.MedicalDetail-image {
+  padding: 150px 50px;
+  width: auto;
+}
+.MedicalDetail-image {
+  text-align: center;
+}
+
+.MedicalDetail-image ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.MedicalDetail-image ul li {
+  list-style: none;
+  width: auto;
+}
+
+.MedicalDetail-images h4 {
+  border-bottom: 5px solid #ed1c23;
+  margin: 0 auto;
+  padding: 7px;
+  width: auto;
+}
+

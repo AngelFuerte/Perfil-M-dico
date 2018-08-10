@@ -1,0 +1,130 @@
+﻿[
+	{
+		"id_state": "1",
+		"state": "Aguascalientes"
+	},
+	{
+		"id_state": "2",
+		"state": "Baja California"
+	},
+	{
+		"id_state": "3",
+		"state": "Baja California Sur"
+	},
+	{
+		"id_state": "4",
+		"state": "Campeche"
+	},
+	{
+		"id_state": "5",
+		"state": "Coahuila"
+	},
+	{
+		"id_state": "6",
+		"state": "Colima"
+	},
+	{
+		"id_state": "7",
+		"state": "Chiapas"
+	},
+	{
+		"id_state": "8",
+		"state": "Chihuahua"
+	},
+	{
+		"id_state": "9",
+		"state": "Ciudad de México"
+	},
+	{
+		"id_state": "10",
+		"state": "Durango"
+	},
+	{
+		"id_state": "11",
+		"state": "Guanajuato"
+	},
+	{
+		"id_state": "12",
+		"state": "Guerrero"
+	},
+	{
+		"id_state": "13",
+		"state": "Hidalgo"
+	},
+	{
+		"id_state": "14",
+		"state": "Jalisco"
+	},
+	{
+		"id_state": "15",
+		"state": "Estado de México"
+	},
+	{
+		"id_state": "16",
+		"state": "Michoacán"
+	},
+	{
+		"id_state": "17",
+		"state": "Morelos"
+	},
+	{
+		"id_state": "18",
+		"state": "Nayarit"
+	},
+	{
+		"id_state": "19",
+		"state": "Nuevo León"
+	},
+	{
+		"id_state": "20",
+		"state": "Oaxaca"
+	},
+	{
+		"id_state": "21",
+		"state": "Puebla"
+	},
+	{
+		"id_state": "22",
+		"state": "Querétaro"
+	},
+	{
+		"id_state": "23",
+		"state": "Quintana Roo"
+	},
+	{
+		"id_state": "24",
+		"state": "San Luis Potosí"
+	},
+	{
+		"id_state": "25",
+		"state": "Sinaloa"
+	},
+	{
+		"id_state": "26",
+		"state": "Sonora"
+	},
+	{
+		"id_state": "27",
+		"state": "Tabasco"
+	},
+	{
+		"id_state": "28",
+		"state": "Tamaulipas"
+	},
+	{
+		"id_state": "29",
+		"state": "Tlaxcala"
+	},
+	{
+		"id_state": "30",
+		"state": "Veracruz"
+	},
+	{
+		"id_state": "31",
+		"state": "Yucatán"
+	},
+	{
+		"id_state": "32",
+		"state": "Zacatecas"
+	}
+]
