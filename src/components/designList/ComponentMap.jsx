@@ -21,6 +21,7 @@ class ComponentMap extends Component {
 
     this.onMarkerClick = this.onMarkerClick.bind(this);
     this.onMapClick = this.onMapClick.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
 
   UNSAFE_componentWillMount() {
