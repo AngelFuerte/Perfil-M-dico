@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { reduxForm, arrayInsert } from 'redux-form';
+import { reduxForm, arrayInsert, reset } from 'redux-form';
 import { Button, Input } from 'reactstrap';
 import { fetchServer, loadDataForm, getListMedical } from '../../actions';
 import { AcademicFormation } from './AcademicFormation.jsx';
@@ -8,6 +8,9 @@ import { InformationPersonal } from './InformationPersonal.jsx';
 import { Workplace } from './Workplace.jsx';
 import { validate } from './validate';
 import { SearchMedical } from '../SearchMedical/SearchMedical.jsx';
+
+// const afterSubmit = (result, dispatch) =>
+//   dispatch(reset('designListFormValue'));
 
 class DesignListFormComponent extends Component {
   constructor(props) {
@@ -17,15 +20,8 @@ class DesignListFormComponent extends Component {
       selectedOption: '',
     };
     this.handleChange = this.handleChange.bind(this);
-    // this.submitMyForm = this.submitMyForm.bind(this);
   }
 
-  // submitMyForm(data) {
-  //   const {createRecord, resetForm} = this.props;
-  //   return createRecord(data).then(() => {
-  //     resetForm();
-  //   });
-  // }
   UNSAFE_componentWillMount() {
     const { dispatch } = this.props;
     dispatch(
@@ -133,7 +129,7 @@ class DesignListFormComponent extends Component {
 const DesignListComponentForm = reduxForm({
   form: 'designListFormValue',
   validate,
-  // onSubmitSuccess: afterSubmit
+//   onSubmitSuccess: afterSubmit,
 })(DesignListFormComponent);
 
 const mapDispatchToProps = dispatch => ({
