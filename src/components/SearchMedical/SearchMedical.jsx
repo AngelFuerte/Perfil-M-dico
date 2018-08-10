@@ -4,7 +4,7 @@ import { MedicalList } from '../SearchMedical/MedicalList.jsx';
 
 const MedicalSearch = ({ searchBy }) => (
   <div className="Search">
-    <input type="text" placeholder="Buscar Medico" onChange={searchBy} />
+    <input type="text" placeholder="Select a doctor to load" onChange={searchBy} />
   </div>
 );
 
