@@ -19,6 +19,7 @@ export const MedicalList = ({ type, dataMedical, inputValue }) => (
       if (medical[type].toLowerCase().search(inputValue) > -1) {
         return <Medical key={medical.curp} medical={medical} />;
       }
+      return null;
     })}
   </div>
 );
