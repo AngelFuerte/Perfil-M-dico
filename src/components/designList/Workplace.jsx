@@ -215,17 +215,18 @@ const RenderFormWorkplace = ({
       if (initialValues) {
         load_location = initialValues.work_place[index].location;
       }
-      // console.log(location)
       return (
         <div key={'Workplace'}>
-          <Button
-            type="button"
-            color="danger"
-            style={style}
-            onClick={() => fields.remove(index)}
-          >
-            -
-          </Button>
+          {(fields.length > 1 &&
+            <Button
+              type="button"
+              color="danger"
+              style={style}
+              onClick={() => fields.remove(index)}
+            >
+              -
+            </Button>
+          )}
           <Table>
             <thead>
               <tr>
