@@ -82,11 +82,11 @@ export const validate = values => {
       (!values.academic_formation.course_diplomas ||
         !values.academic_formation.course_diplomas.length)
     ) {
-      if (!values.academic_formation.course_diplomas.length) {
-        errors.academic_formation.course_diplomas = {
-          _error: 'At least one Course or Diplomas must be entered',
-        };
-      }
+//       if (!values.academic_formation.course_diplomas.length) {
+//         errors.academic_formation.course_diplomas = {
+//           _error: 'At least one Course or Diplomas must be entered',
+//         };
+//       }
     } else if (
       values.academic_formation &&
       values.academic_formation.course_diplomas
@@ -125,11 +125,11 @@ export const validate = values => {
       (!values.academic_formation.certifications ||
         !values.academic_formation.certifications.length)
     ) {
-      if (!values.academic_formation.certifications.length) {
-        errors.academic_formation.certifications = {
-          _error: 'At least one Certifications must be entered',
-        };
-      }
+//       if (!values.academic_formation.certifications.length) {
+//         errors.academic_formation.certifications = {
+//           _error: 'At least one Certifications must be entered',
+//         };
+//       }
     } else if (
       values.academic_formation &&
       values.academic_formation.certifications
