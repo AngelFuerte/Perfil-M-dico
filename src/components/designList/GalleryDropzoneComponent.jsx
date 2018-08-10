@@ -40,7 +40,7 @@ export class GalleryDropzoneComponent extends Component {
             style={style}
             onDropAccepted={this.onDrop}
           >
-            <p>subir imagen</p>
+            <p>Load Image</p>
             {this.renderPreview()}
           </Dropzone>
         </div>
