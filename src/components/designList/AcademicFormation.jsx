@@ -123,12 +123,7 @@ class SelectOption extends Component {
       options: this.props.list,
     });
   }
-  componentDidUpdate(prevProps) {
-    if (this.props.input.value !== prevProps.input.value) {
-      this.setState({ value: { label: this.props.input.value } });
-    }
-  }
-
+  
   handleOnChange(value) {
     this.props.input.onChange(value.label);
     this.setState({ value });
