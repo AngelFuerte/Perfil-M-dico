@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { reduxForm, arrayInsert, reset } from 'redux-form';
+import { reduxForm, arrayInsert } from 'redux-form';
 import { Button, Input } from 'reactstrap';
 import { fetchServer, loadDataForm, getListMedical } from '../../actions';
 import { AcademicFormation } from './AcademicFormation.jsx';
@@ -129,7 +129,7 @@ class DesignListFormComponent extends Component {
 const DesignListComponentForm = reduxForm({
   form: 'designListFormValue',
   validate,
-//   onSubmitSuccess: afterSubmit,
+  // onSubmitSuccess: afterSubmit,
 })(DesignListFormComponent);
 
 const mapDispatchToProps = dispatch => ({
