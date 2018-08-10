@@ -16,6 +16,7 @@ class SearchMedical extends Component {
       selectedOption: 'fullName',
     };
     this.handleChange = this.handleChange.bind(this);
+    this.searchBy = this.searchBy.bind(this);
   }
 
   searchBy(input) {
@@ -41,7 +42,7 @@ class SearchMedical extends Component {
           <option value="curp">curp</option>
         </Input>
 
-        <MedicalSearch searchBy={this.searchBy.bind(this)} />
+        <MedicalSearch searchBy={this.searchBy} />
         <MedicalList
           dataMedical={dataMedical}
           inputValue={this.state.inputValue.toLowerCase()}
